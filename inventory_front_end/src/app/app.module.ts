@@ -12,8 +12,8 @@ function initializeKeycloak(keycloak: KeycloakService) {
     keycloak.init({
       config: {
         url: 'http://localhost:8080',
-        realm: 'inventery_app',
-        clientId: 'inventory_frontend'
+        realm: 'ecom',
+        clientId: 'ecom_client'
       },
       initOptions: {
         onLoad: 'check-sso',
